@@ -1,20 +1,11 @@
-# Memory Game Project
+# 记忆卡片小游戏
 
-## Table of Contents
+## 启动游戏
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+直接使用浏览器（chrome或firefox）打开index.html即可开始愉快的玩耍了。
 
-## Instructions
+## 游戏操作方法
+使用鼠标点击卡片。
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+## 游戏规则
+游戏板包含16张卡片，每个卡片都隐藏有一个不同的符号并随机排列。玩家需要每次点开任意两个卡片，找到匹配的卡片，所有卡片都匹配成功后游戏结束。完成游戏使用的步骤越少，最后得到的星星越多。
